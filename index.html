@@ -1,0 +1,124 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>Estudiantes</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Estudiantes</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Form <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Trabajo/tabla.html">Tabla</a>
+          </li>
+        </form>
+      </div>
+    </nav>
+
+    <form id="formulario">
+        <div class="form-group">
+            <label for="Nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+        </div>
+        <div class="form-group">
+            <label for="Nombre">Materia</label>
+            <select class="form-control" id="materia1">
+                <option value="programacion">Programacion</option>
+                <option value="sistemasEmbebidos">Sistemas embebidos</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Calificacion</label>
+            <input type="text" class="form-control" id="calificacion" placeholder="Inserte Calificacion">
+        </div>
+        <div class="form-group">
+            <label for="Nombre">Materia</label>
+            <select class="form-control" id="materia2">
+                <option value="programacion">Programacion</option>
+                <option value="sistemasEmbebidos">Sistemas embebidos</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Calificacion</label>
+            <input type="text" class="form-control" id="calificacion" placeholder="Inserte Calificacion">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Fecha de nacimiento</label>
+            <input type="text" class="form-control" id="dia" placeholder="Dia">
+            <input type="text" class="form-control" id="mes" placeholder="Mes">
+            <input type="text" class="form-control" id="anio" placeholder="Año">
+        </div>
+    </form>
+    <button class="btn btn-primary" onclick="mostrarTabla()">Subir</button>
+
+    <table class="table" id="tabla">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Programacion</th>
+                <th scope="col">Sistemas Embebidos</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpoT">
+            
+        </tbody>
+    </table>
+
+    <div>
+        <p id="promedioProgra">Programacion:</p>
+        <p id="PromedioSistemas">Sistemas Embebidos</p>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/JavaScript" src="../Trabajo/main.js"></script>
+  </body>
+</html>
