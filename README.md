@@ -1,4 +1,4 @@
 # Trabajo
-Formulario de estudiantes 
+Formulario de estudiantes \n 
 Nombre: Ari Alonso Sepulveda Rosales
 Tel: 3411352722
